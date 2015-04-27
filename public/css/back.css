@@ -1,0 +1,114 @@
+body {
+	font-family: Arial;
+        font-size: 12px;
+        background-image: url(../img/background.jpg);
+}
+h1{
+    font-size: 16px;
+}
+#content{
+    width: 950px;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+    background: rgba(25, 25, 25, .5);
+    padding: 5px;
+    color: #fff;
+    min-height: 100%;
+
+}
+#menu {
+	height: 30px;
+	background: #ee2f24;
+	vertical-align: middle;
+        width: 960px;
+        margin: 0 auto;
+        z-index: 2;
+        position: relative;
+
+}
+
+#menu a {
+	text-decoration: none;
+        color:#fff;
+        font-weight: bold;
+	padding: 5px;
+	line-height: 30px;
+}
+#menu a:hover {
+    color:#333;
+}
+
+table {
+	border: 2px solid gray;
+	border-collapse: collapse;
+	width: 100%;
+        font-size: 12px;
+        background: #fff;
+}
+
+tr:first-child {
+	background: silver;
+}
+
+tr:not(:first-child):hover {
+	background: gainsboro;
+}
+
+th {
+	font-weight: bold;
+	border: 2px solid gray;
+	padding: 5px;
+}
+
+td {
+	border: 2px solid gray;
+	text-align: center;
+	padding: 5px;
+}
+
+form {
+    border: 1px solid gray;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    background-color: #fff;
+    padding: 22px;
+    display: table;
+    color: #333;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo-1{
+    position: fixed;
+    z-index: 1;
+}
+.logo-2{
+    position: fixed;
+    right: 0;
+    z-index: 1;
+}
+.logo-1 img, .logo-2 img{
+    width: 150px;
+}
+input{
+
+}
+label{
+
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }

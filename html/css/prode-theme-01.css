@@ -1,0 +1,700 @@
+body{
+    background-image: url(../img/background.jpg);
+}
+section{
+    width: 100%;
+}
+.content-01{
+    width: 1000px;
+    margin: 0 auto;
+}
+p{
+    *font-family: 'interstate_cond_monoregular';
+    font-family: 'Cabin Condensed', sans-serif;
+    color:#fff;
+    font-size: 14px;
+}
+label{
+    font-family: 'Cabin Condensed', sans-serif;
+    color:#fff;
+}
+/* LOG IN*/
+.login{
+    position: relative;
+    background-image: url(../img/background-login.jpg);
+    height: 522px;
+    margin-top: 50px;
+    
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+}
+.login .logo{
+    position: absolute;
+    top: -18px;
+    left: 87px;
+    width: 514px;
+    height: 514px;
+    background-image: url(../img/logo-01.png);
+}
+.login .content-form-login {
+    position: relative;
+    float: right;
+    margin-top: 109px;
+    margin-right: 203px;
+    width: 227px;
+    z-index: 500;
+}
+.login .content-form-login h1{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-weight: 700;
+    color:#fde906;
+    font-size: 30px;
+}
+.login .bajada{
+    position: absolute;
+    top: 422px;
+    left: 354px;
+    font-family: 'Cabin Condensed', sans-serif;
+    color:#fff;
+    font-size: 11px;
+}
+.form-login{
+    
+}
+.form-login label{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 15px;
+    color:#fff;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: 15px;
+}
+.input-01{
+    font-family: 'Cabin Condensed', sans-serif;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    
+    margin-top: 5px;
+    
+    padding: 5px;
+    width: 146px;
+    height: 15px;
+}
+.input-02{
+    font-family: 'Cabin Condensed', sans-serif;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    background-color: #73c01d;
+    color:#fff;
+    font-size: 18px;
+    
+    margin-top: 25px;
+}
+/* FIN LOG IN*/
+
+/* header */
+.content-menu{
+    position: relative;
+    background-image: url(../img/barra.png);
+    background-repeat: repeat-x;
+    height: 40px;
+    width: 100%;
+    margin-top: 56px;
+}
+.menu-superior{
+   position: relative;
+   float: right;
+   margin-right: 112px;
+   text-transform:uppercase;
+}
+
+.menu-superior>li {
+    position: relative;
+    float: left;
+    font-family: 'interstate_cond_monobold';
+   padding: 9px;
+}
+.menu-superior>li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.content-menu .logo-02{
+    position: absolute;
+    top: -64px;
+    left: 22px;
+}
+.salir{
+    position: absolute;
+    padding: 4px;
+    top: 7px;
+    right: 4px;
+    font-family: 'interstate_cond_monobold';
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    background-color: #73c01d;
+}
+/* fin header */
+
+/* PERFIL */
+.content-perfil{
+    margin          : 0 auto;
+    width           : 443px;
+    background-image: url(../img/background-perfil.png);
+    height          : 920px;
+    padding         : 23px;
+}
+.content-perfil h1, .content-perfil h2{
+    font-family: 'interstate_cond_monobold';
+    font-size: 25px;
+    color:#fff;
+}
+.content-perfil .line-01 {
+    position: relative;
+    left: -23px;
+}
+.perfil-form{
+    position: relative;
+    width: 375px;
+    margin-top: 65px;
+}
+.perfil-form .fila{
+    position: relative;
+    margin: 0px 0 17px 0;
+    height: 22px;
+}
+.perfil-form .fila.octavos{
+    height: 44px;
+}
+
+.perfil-form input[type='text']{
+   width: 254px;
+   height: 15px;
+   position: relative;
+   float: right;
+   font-family: 'Cabin Condensed', sans-serif;
+}
+.perfil-form label{
+   position: relative;
+   float: left;
+   width: 112px;
+   font-size: 14px;
+   padding-top: 5px;
+}
+.perfil-form .upload-file {
+    font-family: 'Cabin Condensed', sans-serif;
+    color:#fff;
+    position: absolute;
+    left: 0;
+    top:25px;
+}
+.perfil-form .upload-img {
+    position: absolute;
+    left: 114px;
+    border: 1px solid #90e919;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    width: 60px;
+    height: 60px;
+}
+.perfil-form .content-candidato{
+    position: absolute;
+    width: 444px;
+    left: -25px;
+    top: 389px;
+    background-image: url(../img/background-01.png);
+    height          : 82px;
+    padding         : 23px;
+}
+.perfil-form .content-candidato p{
+    margin-bottom: 16px;
+}
+.perfil-form .terminos-condiciones{
+    position: relative;
+    margin-top: 208px;
+}
+.perfil-form .terminos-condiciones p{
+    line-height: 21px;
+}
+.perfil-form .btn-continuar{
+    position: relative;
+   float: right;
+    padding: 4px;
+    top: 7px;
+    right: -75px;
+    font-family: 'interstate_cond_monobold';
+    color: #1a3d4c;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    background-color: #73c01d;
+}
+/* FIN PERFIL */
+
+/* FIXTURE */
+.content-fixture{
+    
+}
+.content-fixture .col-1{
+    width: 297px;    
+    position: relative;
+    float:left;
+}
+.content-fixture .col-2{    
+    width: 502px;
+    position: relative;
+    float:left;
+}
+.content-fixture .col-3{
+    width: 201px;
+    position: relative;
+    float:left;
+}
+.content-fixture .grupos{
+    position: relative;
+    background-image: url(../img/background-02.png);
+    width: 100%;
+    height: 518px;
+    padding: 1px 0 0 5px;
+}
+.content-fixture .grupos.octavos{
+    background-image: url(../img/background-05.png);
+    height: 592px;
+}
+.content-fixture .grupos.cuartos{
+    background-image: url(../img/background-05.png);
+    height: 430px;
+    margin-bottom: -11px;
+    background-position: left bottom;
+}
+.content-fixture .grupos.semifinales{
+    background-image: url(../img/background-05.png);
+    height: 357px;
+    margin-bottom: -11px;
+    background-position: left bottom;
+}
+.content-fixture .grupos.finales{
+    background-image: url(../img/background-05.png);
+    height: 201px;
+    margin-bottom: -11px;
+    background-position: left bottom;
+}
+.content-fixture .grupos .titulo{
+    background: rgb(49, 91, 65); /* The Fallback */
+    background-color: rgba(49,91,65, 0.8);
+    text-align: center;
+    width: 462px;
+    height: 41px;
+    
+}
+.content-fixture .grupos .titulo p {
+    font-family: 'interstate_cond_monobold';
+    font-size: 25px;
+    padding-top: 9px;
+}
+.slider-grupos{
+    width: 462px;
+    
+}
+.slider-grupos ul>li{
+    width: 408px !important;
+    height: 301px;
+    background-image: url(../img/background-03.png);
+    background-repeat: no-repeat;
+}
+.slider-grupos ul>li p.grupo-letra{
+    font-size: 37px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+.partidos{
+    width: 408px;
+    margin-top: 45px;
+}
+.partidos.octavos{
+    height: 350px;
+    width: 462px;
+    margin-top: 5px;
+    padding-top: 18px;
+    background-image: url(../img/background-04.png);
+}
+.partidos.cuartos{
+    height: 188px;
+    width: 462px;
+    margin-top: 5px;
+    padding-top: 18px;
+    background-image: url(../img/background-06.png);
+}
+.partidos.semifinales {
+    height: 110px;
+    width: 462px;
+    margin-top: 5px;
+    padding-top: 18px;
+    background-image: url(../img/background-06.png);
+    background-position: left bottom;
+}
+.partidos.finales {
+    height: 76px;
+    width: 462px;
+    margin-top: 5px;
+    padding-top: 18px;
+    background-image: url(../img/background-06.png);
+    background-position: left bottom;
+}
+.partidos .fila{
+    width: 400px;
+    height: 41px;
+    margin: 0 auto;
+    margin-left: 57px;
+    position: relative;
+    float: left;
+}
+.partidos .fila p{
+    position: relative;
+    float: left;
+    font-size: 12px;
+    text-transform:uppercase;
+    
+}
+
+.partidos .fila p.equipo-a{
+    width: 115px;
+    text-align: right;
+}
+.partidos .fila.octavos p.equipo-a{
+    padding-top: 13px;
+}
+.partidos .fila.octavos p.equipo-b{
+    padding-top: 13px;
+}
+.partidos .fila p.equipo-a img{
+    position: relative;
+    float: right;
+    margin-left: 7px;
+}
+.partidos .fila p.equipo-b img{
+    position: relative;
+    float: left;
+    margin-right: 7px;
+}
+.partidos .fila input{
+    position: relative;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+.partidos .fila.octavos input{
+    margin-top:8px; 
+}
+.grupos .bajada-grupos{
+    margin-top: 10px;
+    text-align: center;
+    width: 471px;
+}
+.grupos .bajada-grupos p {
+    font-size: 12px;
+    color:#1a3d4c;
+}
+.grupos .pregunta-desempate{
+    margin-top: 26px;
+    text-align: center;
+    width: 471px;
+}
+.grupos .pregunta-desempate p{
+    font-weight: 600; 
+    font-size: 17px;
+    color:#1a3d4c;
+}
+.grupos .pregunta-desempate form{
+    margin-top: 25px;
+}
+.grupos .pregunta-desempate form label{
+    color: #1a3d4c;
+}
+.grupos .pregunta-desempate input {    
+    font-family: 'Cabin Condensed', sans-serif;
+    -moz-border-radius      : 3px;
+    -webkit-border-radius   : 3px;
+    border-radius           : 3px;
+    border                  : 1px solid #90e919;
+    color                   : #fff; 
+    margin-top              : 5px;    
+    padding                 : 5px;
+    width                   : 37px;
+    height                  : 15px;
+    background-color        : #1a3d4c;   
+    text-align              : center;
+    font-size               : 18px;
+}
+.input-resultado {    
+    font-family: 'Cabin Condensed', sans-serif;
+    -moz-border-radius      : 3px;
+    -webkit-border-radius   : 3px;
+    border-radius           : 3px;
+    border                  : 1px solid #90e919;
+    color                   : #fff; 
+    margin-top              : 5px;    
+    padding                 : 5px;
+    width                   : 18px;
+    height                  : 15px;
+    background-color        : #1a3d4c;   
+    text-align              : center;
+    font-size               : 18px;
+}
+.resultado-terminado p{
+    font-family: 'Cabin Condensed', sans-serif;
+    -moz-border-radius      : 3px;
+    -webkit-border-radius   : 3px;
+    border-radius           : 3px;
+    border                  : 1px solid #90e919;
+    color                   : #062e3f; 
+    margin-top              : 5px;    
+    padding                 : 5px;
+    width                   : 29px;
+    height                  : 21px;
+    background-color        : #9ccb3b;   
+    text-align              : center !important;
+    font-size: 20px !important;
+}
+.resultado-terminado.rojo p{
+   background-color        : #ed1c24;    
+}
+.resultado-terminado.amarillo p{
+   background-color        : #fff200;    
+}
+.grupos .guardar, .grupos .borrar-todo{
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    top: 25px;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 12px;
+}
+.grupos .borrar-todo{
+    right: 72px;
+    
+}
+.grupos .guardar{
+    right: 24px;
+    
+}
+/* FIN FIXTURE */
+
+/* DESCRIPCION USUARIO */
+.descripcion-usuario{
+    border-top: 1px solid #90e919;
+    position: relative;
+    background-image: url(../img/background-07.png);
+    height: 149px;
+    width: 291px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-top: 95px;
+}
+.descripcion-usuario .titulo, .tus-puntos .titulo{
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size: 25px;
+    font-family: 'interstate_cond_monobold';
+}
+.descripcion-usuario .apodo{
+    position: absolute;
+    bottom:40px;
+    left:10px;
+    font-size: 14px;
+}
+.descripcion-usuario .upload-img {
+    position: absolute;
+    left: 177px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 95px;
+    height: 95px;
+    bottom: 15px;
+}
+/* FIN DESCRIPCION USUARIO */
+
+/* TUS PUNTOS */
+.tus-puntos{
+    border-top: 1px solid #90e919;
+    position: relative;
+    background-image: url(../img/background-07.png);
+    height: 255px;
+    width: 291px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+}
+.tus-puntos .candidato{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.tus-puntos .totales{
+    position: absolute;
+    top: 38px;
+    background-image: url(../img/estrella.png);
+    width: 150px;
+    height: 144px;
+}
+.tus-puntos .totales .puntos {
+    font-family: 'Cabin Condensed', sans-serif;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+    width: 48px;
+    height: 29px;
+    background-color: #1a3d4c;
+    text-align: center;
+    font-size: 30px;
+    
+    position: absolute;
+    top: 48px;
+    left: 41px;
+    font-weight: 700;
+}
+.tus-puntos .totales .titulo {
+   position: absolute;
+    top: 33px;
+    left: 45px;
+    font-size: 17px;
+}
+.puntos-detalle{
+    position: relative;
+    float: right;
+    width: 127px;
+    margin: 25px 10px 0 0;
+}
+.puntos-detalle p{
+    position: relative;
+    font-size: 14px;
+    height: 40px
+}
+.tus-puntos .posicion{
+    position: absolute;
+    font-size: 17px;
+    bottom: 10px;
+    right: 23px;
+}
+.puntos-detalle p span{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+    width: 46px;
+    height: 28px;
+    background-color: #1a3d4c;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: -16px;
+    padding: 2px 0 2px 0;
+    left: 67px;
+    font-weight: 700;
+}
+/* FIN TUS PUNTOS */
+
+/* MENSAJES */
+.mensajes{
+    border-top: 1px solid #90e919;
+    position: relative;
+    background-image: url(../img/background-05.png);
+    width: 291px;
+    height: 412px;
+     background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+}
+.mensajes .titulo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    color:#24503c;
+    font-family: 'interstate_cond_monobold';
+}
+.mensajes textarea{
+    position: absolute;
+    resize: none;
+    font-family: 'Arial';
+    font-size: 11px;
+    top: 41px;
+    left: 49px;
+    width: 231px;
+    height: 34px;
+}
+.mensajes .user-img{
+    position: absolute;
+    border: 1px solid #999;
+    border-radius: 50px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 34px;
+    height: 34px;
+    top: 42px;
+    left: 10px;
+}
+.mensajes .content-mensajes{
+    position: absolute;
+
+   * margin: 90px 0 0 10px;
+    background-color: #fff;
+    
+}
+.mensajes .content-mensajes .content-mensaje{
+    margin: 5px;
+    width: 95%;
+    position: relative;
+    float: left;
+}
+.mensajes .content-mensaje .titulo{
+    position: relative;
+    float: left;
+    color:#24503c;
+    font-size: 11px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+}
+.mensajes .content-mensaje .mensaje{
+    position: relative;
+    float: left;
+    color:#6d6e71;
+    font-size: 11px;
+    width: 100%;
+}

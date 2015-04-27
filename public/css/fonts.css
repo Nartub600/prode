@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'interstateregular';
+    src: url('../fonts/interstate_bold_cond-webfont.eot');
+    src: url('../fonts/interstate_bold_cond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/interstate_bold_cond-webfont.woff') format('woff'),
+         url('../fonts/interstate_bold_cond-webfont.ttf') format('truetype'),
+         url('../fonts/interstate_bold_cond-webfont.svg#interstateregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'interstateregular';
+    src: url('../fonts/interstate_regular_comp-webfont.eot');
+    src: url('../fonts/interstate_regular_comp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/interstate_regular_comp-webfont.woff') format('woff'),
+         url('../fonts/interstate_regular_comp-webfont.ttf') format('truetype'),
+         url('../fonts/interstate_regular_comp-webfont.svg#interstateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

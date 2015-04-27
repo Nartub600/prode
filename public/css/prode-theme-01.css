@@ -1,0 +1,1129 @@
+body{
+    background-image: url(../img/background.jpg);
+    font-family: 'interstateregular', sans-serif;
+}
+section, footer{
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.content-01{
+    width: 1000px;
+    margin: 0 auto;
+}
+p{
+   
+    font-family: 'interstateregular', sans-serif;
+    color:#fff;
+    font-size: 14px;
+}
+p a{
+    color: #fff;
+}
+strong{
+    font-weight: bold;
+}
+label{
+    font-family: 'interstateregular', sans-serif;
+    color:#fff;
+}
+/* LOG IN*/
+.login{
+    position: relative;
+    background-image: url(../img/background-login.jpg);
+    height: 522px;
+    margin-top: 50px;
+
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.75);
+}
+.login .logo{
+    position: absolute;
+    top: -18px;
+    left: 87px;
+    width: 514px;
+    height: 514px;
+    background-image: url(../img/logo-01.png);
+}
+.login .content-form-login {
+    position: relative;
+    float: right;
+    margin-top: 109px;
+    margin-right: 203px;
+    width: 227px;
+    z-index: 500;
+}
+.login .content-form-login h1{
+    font-family: 'interstateregular', sans-serif;
+    font-weight: bold;
+    color:#fde906;
+    font-size: 30px;
+}
+.login .bajada{
+    position: absolute;
+    top: 422px;
+    left: 354px;
+    font-family: 'interstateregular', sans-serif;
+    color:#fff;
+    font-size: 11px;
+}
+.form-login{
+
+}
+.form-login label{
+    font-family: 'interstateregular', sans-serif;
+    font-size: 15px;
+    color:#fff;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: 15px;
+}
+.input-01{
+    font-family: 'interstateregular', sans-serif;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+
+    margin-top: 5px;
+    font-size: 15px;
+    padding: 5px;
+    width: 166px;
+    height: 15px;
+    position: relative;
+    float: left;
+}
+.input-02{
+    font-family: 'interstateregular', sans-serif;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    background-color: #73c01d;
+    color:#fff;
+    font-size: 18px;
+
+    margin-top: 25px;
+    position: relative;
+    float: left;
+}
+/* FIN LOG IN*/
+
+/* header */
+.content-menu{
+    position: relative;
+    background-image: url(../img/barra.png);
+    background-repeat: repeat-x;
+    height: 40px;
+    width: 100%;
+    margin-top: 56px;
+}
+.menu-superior{
+   position: relative;
+   float: right;
+   margin-right: 112px;
+   text-transform:uppercase;
+}
+
+.menu-superior>li {
+    position: relative;
+    float: left;
+    font-family: 'interstateregular', sans-serif;
+   padding: 9px;
+}
+.menu-superior>li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.content-menu .logo-02{
+    position: absolute;
+    top: -64px;
+    left: 22px;
+}
+.salir{
+    position: absolute;
+    padding: 4px;
+    top: 7px;
+    right: 4px;
+    font-family: 'interstateregular', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    background-color: #73c01d;
+    font-weight: bold;
+}
+/* fin header */
+
+/* PERFIL */
+.content-perfil{
+    margin          : 0 auto;
+    width           : 443px;
+    background-image: url(../img/background-perfil.png);
+    height          : 920px;
+    padding         : 23px;
+}
+.content-perfil h1, .content-perfil h2{
+    font-family: 'interstateregular', sans-serif;
+    font-size: 25px;
+    color:#fff;
+}
+.content-perfil .line-01 {
+    position: relative;
+    left: -23px;
+}
+.perfil-form{
+    position: relative;
+    width: 375px;
+    margin-top: 65px;
+}
+.perfil-form .fila{
+    position: relative;
+    margin: 0px 0 17px 0;
+    height: 22px;
+}
+.perfil-form .fila.octavos{
+    height: 44px;
+}
+
+.perfil-form input[type='text']{
+   width: 254px;
+   height: 15px;
+   position: relative;
+   float: right;
+   font-family: 'interstateregular', sans-serif;
+}
+.perfil-form label{
+   position: relative;
+   float: left;
+   width: 112px;
+   font-size: 14px;
+   padding-top: 5px;
+}
+.perfil-form .upload-file {
+    font-family: 'interstateregular', sans-serif;
+    color:#fff;
+    position: absolute;
+    left: 0;
+    top:25px;
+}
+.perfil-form .upload-img {
+    position: absolute;
+    left: 114px;
+    border: 1px solid #90e919;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -khtml-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    width: 60px;
+    height: 60px;
+}
+.perfil-form .content-candidato{
+    position: absolute;
+    width: 444px;
+    left: -25px;
+    top: 389px;
+    background-image: url(../img/background-01.png);
+    height          : 82px;
+    padding         : 23px;
+}
+.perfil-form .content-candidato p{
+    margin-bottom: 16px;
+}
+.perfil-form .terminos-condiciones{
+    position: relative;
+    margin-top: 208px;
+}
+.perfil-form .terminos-condiciones p{
+    line-height: 21px;
+}
+.perfil-form .btn-continuar{
+    margin-top: 10px;
+    position: relative;
+   float: right;
+    padding: 4px;
+    top: 7px;
+    right: -75px;
+    font-family: 'interstateregular', sans-serif;
+    color: #1a3d4c;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    background-color: #73c01d;
+}
+/* FIN PERFIL */
+
+/* FIXTURE */
+.content-fixture{
+
+}
+.content-fixture .col-1{
+    width: 297px;
+    position: relative;
+    float:left;
+}
+.content-fixture .col-2{
+    width: 502px;
+    position: relative;
+    float:left;
+}
+.content-fixture .col-3{
+    width: 213px;
+    position: relative;
+    float:left;
+}
+.content-fixture .col-4{
+    width: 701px;
+    position: relative;
+    float:left;
+}
+.content-fixture .grupos{
+    position: relative;
+    background-image: url(../img/background-02.png);
+    width: 100%;
+    height: 518px;
+    padding: 1px 0 0 5px;
+}
+.content-fixture .grupos.octavos{
+    background-image: url(../img/background-05.png);
+    height: 592px;
+}
+.content-fixture .grupos.cuartos{
+    background-image: url(../img/background-05.png);
+    height: 430px;
+    margin-bottom: -11px;
+    background-position: left bottom;
+}
+.content-fixture .grupos.semifinales{
+    background-image: url(../img/background-05.png);
+    height: 357px;
+    margin-bottom: -11px;
+    background-position: left bottom;
+}
+.content-fixture .grupos.finales{
+    background-image: url(../img/background-05.png);
+    height: 271px;
+    margin-bottom: -11px;
+    background-position: left bottom;
+}
+.content-fixture .grupos .titulo{
+    background: rgb(49, 91, 65); /* The Fallback */
+    background-color: rgba(49,91,65, 0.8);
+    text-align: center;
+    width: 462px;
+    height: 41px;
+
+}
+.content-fixture .grupos .titulo p {
+    font-family: 'interstateregular', sans-serif;
+    font-size: 25px;
+    padding-top: 9px;
+    font-weight: bold;
+}
+.slider-grupos{
+    width: 462px;
+
+}
+.slider-grupos ul>li{
+    width: 408px !important;
+    height: 301px;
+    background-image: url(../img/background-03.png);
+    background-repeat: no-repeat;
+}
+.slider-grupos ul>li p.grupo-letra{
+    font-size: 37px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+.partidos{
+    width: 408px;
+    margin-top: 45px;
+}
+.partidos.octavos{
+    height: 350px;
+    width: 462px;
+    margin-top: 5px;
+    padding-top: 18px;
+    background-image: url(../img/background-04.png);
+}
+.partidos.cuartos{
+    height: 188px;
+    width: 462px;
+    margin-top: 5px;
+    padding-top: 18px;
+    background-image: url(../img/background-06.png);
+}
+.partidos.semifinales {
+    height: 110px;
+    width: 462px;
+    margin-top: 5px;
+    padding-top: 18px;
+    background-image: url(../img/background-06.png);
+    background-position: left bottom;
+}
+.partidos.finales {
+    height: 149px;
+    width: 463px;
+    margin-top: 5px;
+    padding-top: 18px;
+    background-image: url(../img/background-06.png);
+    background-position: left bottom;
+}
+.partidos .fila{
+    width: 400px;
+    height: 41px;
+    margin: 0 auto;
+    margin-left: 47px;
+    position: relative;
+    float: left;
+}
+.partidos .fila p{
+    position: relative;
+    float: left;
+    font-size: 15px;
+    text-transform:uppercase;
+
+}
+
+.partidos .fila p.equipo-b{
+    width: 139px;
+    text-align: left;
+}
+.partidos .fila p.equipo-a{
+    width: 140px;
+    text-align: right;
+}
+.partidos .fila.octavos p.equipo-a{
+    padding-top: 13px;
+}
+.partidos .fila.octavos p.equipo-b{
+    padding-top: 13px;
+}
+.partidos .fila p.equipo-a img{
+    position: relative;
+    float: right;
+    margin-left: 7px;
+    top: -1px;
+}
+.partidos .fila p.equipo-b img{
+    position: relative;
+    float: left;
+    margin-right: 7px;
+    top: -1px;
+    width: 16px;
+}
+.partidos .fila input{
+    position: relative;
+    float: left;
+    margin: 0 5px 0 5px;
+}
+.partidos .fila.octavos input{
+    margin-top:8px;
+}
+.grupos .bajada-grupos{
+    margin-top: 10px;
+    text-align: center;
+    width: 471px;
+}
+.grupos .bajada-grupos p {
+    font-size: 14px;
+    color:#1a3d4c;
+}
+.grupos .pregunta-desempate{
+    margin-top: 26px;
+    text-align: center;
+    width: 471px;
+}
+.grupos .pregunta-desempate p{
+    font-weight: 600;
+    font-size: 17px;
+    color:#1a3d4c;
+}
+.grupos .pregunta-desempate form{
+    margin-top: 25px;
+}
+.grupos .pregunta-desempate form label{
+    color: #1a3d4c;
+}
+.grupos .pregunta-desempate input {
+    font-family: 'interstateregular', sans-serif;
+    -moz-border-radius      : 3px;
+    -webkit-border-radius   : 3px;
+    border-radius           : 3px;
+    border                  : 1px solid #90e919;
+    color                   : #fff;
+    margin-top              : 5px;
+    padding                 : 5px;
+    width                   : 37px;
+    height                  : 15px;
+    background-color        : #1a3d4c;
+    text-align              : center;
+    font-size               : 18px;
+}
+.input-resultado {
+    font-family: 'interstateregular', sans-serif;
+    -moz-border-radius      : 3px;
+    -webkit-border-radius   : 3px;
+    border-radius           : 3px;
+    border                  : 1px solid #90e919;
+    color                   : #fff;
+    margin-top              : 5px;
+    padding                 : 5px;
+    width                   : 18px;
+    height                  : 15px;
+    background-color        : #1a3d4c;
+    text-align              : center;
+    font-size               : 18px;
+}
+.resultado-terminado p{
+    font-family: 'interstateregular', sans-serif;
+    -moz-border-radius      : 3px;
+    -webkit-border-radius   : 3px;
+    border-radius           : 3px;
+    border                  : 1px solid #90e919;
+    color                   : #062e3f;
+    margin-top              : 5px;
+    padding                 : 5px;
+    width                   : 29px;
+    height                  : 21px;
+    background-color        : #9ccb3b;
+    text-align              : center !important;
+    font-size: 20px !important;
+}
+.resultado-terminado.rojo p{
+   background-color        : #ed1c24;
+}
+.resultado-terminado.amarillo p{
+   background-color        : #fff200;
+}
+.grupos .guardar, .grupos .borrar-todo{
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    top: 22px;
+    font-family: 'interstateregular', sans-serif;
+    font-size: 16px;
+}
+.grupos .borrar-todo{
+    right: 89px;
+
+}
+.grupos .guardar{
+    right: 33px;
+
+}
+/* FIN FIXTURE */
+
+/* DESCRIPCION USUARIO */
+.descripcion-usuario{
+    border-top: 1px solid #90e919;
+    position: relative;
+    background-image: url(../img/background-07.png);
+    height: 149px;
+    width: 291px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-top: 95px;
+}
+.descripcion-usuario .titulo, .tus-puntos .titulo{
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size: 25px;
+    font-family: 'interstateregular', sans-serif;
+    font-weight: bold;
+}
+.descripcion-usuario .apodo{
+    position: absolute;
+    bottom:40px;
+    left:10px;
+    font-size: 14px;
+}
+.descripcion-usuario .upload-img {
+    position: absolute;
+    left: 177px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 95px;
+    height: 95px;
+    bottom: 15px;
+}
+/* FIN DESCRIPCION USUARIO */
+
+/* TUS PUNTOS */
+.tus-puntos{
+    border-top: 1px solid #90e919;
+    position: relative;
+    background-image: url(../img/background-07.png);
+    height: 255px;
+    width: 291px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+}
+.tus-puntos .candidato{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.tus-puntos .totales{
+    position: absolute;
+    top: 38px;
+    background-image: url(../img/estrella.png);
+    width: 150px;
+    height: 144px;
+}
+.tus-puntos .totales .puntos {
+    font-family: 'interstateregular', sans-serif;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+    width: 48px;
+    height: 29px;
+    background-color: #1a3d4c;
+    text-align: center;
+    font-size: 30px;
+
+    position: absolute;
+    top: 48px;
+    left: 41px;
+    font-weight: bold;
+}
+.tus-puntos .totales .titulo {
+   position: absolute;
+    top: 33px;
+    left: 45px;
+    font-size: 17px;
+}
+.puntos-detalle{
+    position: relative;
+    float: right;
+    width: 127px;
+    margin: 25px 10px 0 0;
+}
+.puntos-detalle p{
+    position: relative;
+    font-size: 14px;
+    height: 40px
+}
+.tus-puntos .posicion{
+    position: absolute;
+    font-size: 17px;
+    bottom: 10px;
+    right: 23px;
+}
+.puntos-detalle p span{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #90e919;
+    color: #fff;
+    margin-top: 5px;
+    padding: 5px;
+    width: 46px;
+    height: 28px;
+    background-color: #1a3d4c;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: -16px;
+    padding: 2px 0 2px 0;
+    left: 67px;
+    font-weight: bold;
+}
+/* FIN TUS PUNTOS */
+
+/* MENSAJES */
+.mensajes{
+    border-top: 1px solid #90e919;
+    position: relative;
+    background-image: url(../img/background-05.png);
+    width: 291px;
+    height: 412px;
+     background-position: left bottom;
+    background-repeat: no-repeat;
+    margin-top: 3px;
+}
+.mensajes .titulo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    color:#24503c;
+    font-family: 'interstateregular', sans-serif;
+    font-weight: bold;
+}
+.mensajes textarea{
+    position: absolute;
+    resize: none;
+    font-family: 'Arial';
+    font-size: 11px;
+    top: 41px;
+    left: 49px;
+    width: 231px;
+    height: 34px;
+}
+.mensajes .user-img{
+    position: absolute;
+    border: 1px solid #999;
+    border-radius: 50px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 34px;
+    height: 34px;
+    top: 42px;
+    left: 10px;
+}
+.mensajes .content-mensajes{
+    position: absolute;
+
+   * margin: 90px 0 0 10px;
+    background-color: #fff;
+
+}
+.mensajes .content-mensajes .content-mensaje{
+    margin: 5px;
+    width: 95%;
+    position: relative;
+    float: left;
+}
+.mensajes .content-mensaje .titulo{
+    position: relative;
+    float: left;
+    color:#24503c;
+    font-size: 13px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.mensajes .content-mensaje .mensaje{
+    position: relative;
+    float: left;
+    color:#6d6e71;
+    font-size: 14px;
+    width: 100%;
+}
+/* RESUMEN GANADORES */
+.resumen-ganadores, .resumen-posiciones{
+    background-image: url('../img/background-08.png');
+    background-repeat: no-repeat;
+    width: 197px;
+    position: relative;
+    float: right;
+    height: auto;
+    margin-bottom: 14px;
+}
+.resumen-ganadores h1, .resumen-posiciones h1{
+    font-size: 25px;
+    font-weight: 600;
+    color:#24503c;
+    padding: 10px;
+}
+.resumen-ganadores h2{
+    font-size: 17px;
+    font-weight: 600;
+    color:#24503c;
+}
+
+.resumen-ganadores .grupo-ganador{
+    color: #24503c;
+    margin: 15px 0 15px 0;
+    border-top: 1px;
+    border-style: solid;
+    padding: 10px;
+    padding-bottom: 2px;
+
+}
+.resumen-ganadores .grupo-ganador.final{
+    background-image: url(../img/ganador.png);
+    height: 66px;
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+    background-position-y: -12px;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.resumen-ganadores .grupo-ganador.final h2{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #fff;
+}
+.resumen-ganadores .grupo-ganador.final p{
+    position: absolute;
+    left: 30px;
+    color: #fff;
+    top: 41px;
+    font-size: 16px;
+    text-align: center;
+    width: 146px;
+}
+.resumen-ganadores .grupo-ganador li{
+    padding-left: 15px;
+}
+.resumen-ganadores .grupo-ganador li:before{
+    content: "· ";
+}
+
+.resumen-posiciones .posicion{
+    position: relative;
+    float: left;
+    width: 189px;
+    height: 23px;
+    margin-bottom: 11px;
+    border-bottom: 1px solid;
+}
+.resumen-posiciones .posicion .nombre{
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    font-size: 17px;
+    color:#24503c;
+}
+.resumen-posiciones .posicion .puntos{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 17px;
+    color:#24503c;
+}
+.resumen-posiciones .posicion .puntos:after{
+    content: " pts.";
+    font-size: 15px;
+}
+.resumen-posiciones .posicion img{
+    width: 28px;
+    height: 28px;
+    border: 1px solid #90e919;
+    margin-left: 6px;
+}
+/* FIN RESUMEN GANADORES */
+.content-footer{
+    position: relative;
+    background-image: url(../img/background-09.png);
+    background-repeat: repeat-x;
+    height: 140px;
+    width: 100%;
+}
+.content-footer p {
+    padding: 11px;
+}
+.content-footer p a{
+    text-decoration: none;
+    color:#fff;
+}
+.content-footer .logo-footer{
+    position: absolute;
+    left: 674px;
+    top: -18px;
+}
+.content-footer .logo-mutarcirca{
+   position: absolute;
+    left: 878px;
+    top: 6px;
+}
+.tabla-posiciones{
+    background-image: url(../img/background-10.png);
+    color:#fff;
+    height: 900px;
+}
+.tabla-posiciones .titular{
+    width: 100%;
+    height: 52px;
+}
+.tabla-posiciones .titular h1{
+    color:#fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 9px;
+    padding-top: 14px;
+}
+.tabla-posiciones .fila{
+    background-color:#73c01d;
+    height: 33px;
+    width: 697px;
+}
+.tabla-posiciones .fila .row-1{
+
+    position: relative;
+    float: left;
+    height: 33px;
+    width: 48px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #333;
+
+}
+
+.tabla-posiciones .fila .row-1.primera, .tabla-posiciones .fila .row-1.primera p{
+    width: 178px;
+    text-align: left;
+    padding-left: 22px;
+}
+
+.tabla-posiciones .fila .row-1.candidato, .tabla-posiciones .fila .row-1.candidato p{
+    width: 100px;
+}
+
+.tabla-posiciones .fila .row-1.medallas, .tabla-posiciones .fila .row-1.medallas p{
+    width: 100px;
+}
+.tabla-posiciones .fila .row-1.medallas .medalla-pos{
+    margin: 0 auto;
+    margin-top: 7px;
+    width: 66px;
+}
+.tabla-posiciones .fila .row-1.medallas .medalla-pos img{
+    margin: 0 auto;
+    width: 20px;
+}
+
+.tabla-posiciones .fila .row-1 p{
+    width: 48px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    line-height: 11px;
+    text-align: center;
+    font-size: 14px;
+    height: 33px;
+}
+.content-filas{}
+.content-filas .fila{
+
+}
+.content-filas .fila:nth-child(odd) {
+   background:none;
+   color:#777;
+}
+
+.content-filas .fila:nth-child(even) {
+    background: none;
+    background-image: url(../img/background-11.png);
+   color:#FFF;
+}
+.content-filas .row-1 .user-pos{
+    width: 26px;
+    position: absolute;
+    top: 3px;
+    left: 8px;
+    border: 1px solid #90e919;
+}
+
+/* NOVEDADES */
+.content-novedades{
+    position: relative;
+    background-image: url(../img/background-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 898px;
+}
+.content-novedades .titulo{
+    position: relative;
+    height: 88px;
+    margin-bottom: 18px;
+}
+.content-novedades .titulo p{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 33px;
+}
+.content-novedades .titulo img{
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    width: 473px;
+}
+.content-novedades .lista{
+    color:#fff;
+    width: 457px;
+    padding: 0 0px 0 15px;
+}
+.content-novedades .lista .novedad {
+    position: relative;
+    padding-bottom: 23px;
+    margin-bottom: 15px;
+}
+.content-novedades .lista .novedad h1{
+    font-size: 25px;
+}
+.content-novedades .lista .novedad a{
+    text-decoration: none;
+}
+.content-novedades .lista .novedad p{
+
+}
+.content-novedades .lista .novedad img{
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    width: 404px;
+
+}
+.content-novedades .lista .novedad .vermas{
+    margin: 10px 0 0px 0;
+}
+.content-novedades .novedad-desarrollo{
+    color: #fff;
+    width: 457px;
+    padding: 0 0px 0 15px;
+    text-align: justify;
+}
+
+/* EXTRAS */
+.content-extras{
+    position: relative;
+    background-image: url(../img/background-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 898px;
+}
+.content-extras .fotoGaleria{
+    background-image: url(../img/background-12.png);
+    background-repeat: no-repeat;
+    width: 455px;
+    height: 329px;
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+.content-extras .fotoGaleria h1{
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    color: #fff;
+}
+.content-extras .fotoGaleria .slider-fotos{
+    position: absolute;
+    bottom: 33px;
+    left: 0;
+    color: #fff;
+}
+.content-extras .content-extras-info{
+    color:#fff;
+    margin-top: 46px;
+}
+.content-extras-info .titulo-info{
+    background-image: url(../img/background-13.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 462px;
+}
+.content-extras-info .titulo-info h1{
+    font-size: 15px;
+    padding: 10px 0 0 18px;
+}
+.content-extras-info img {
+position: relative;
+top: -9px;
+left: -1px;
+}
+
+/* PREMIOS*/
+
+.content-premios{
+    position: relative;
+    background-image: url(../img/background-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 898px;
+    color:#fff;
+}
+.content-premios .titulo{
+    position: relative;
+    margin-bottom: 5px;
+    padding: 30px 0 0 30px;
+}
+.content-premios .titulo h1{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.content-premios .titulo h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.content-premios .titulo img{
+    position: absolute;
+    bottom: 0;
+    left: 8px;
+    width: 473px;
+}
+.content-premios .imagen-premios .premios{
+    position: relative;
+    left: 7px;
+    top: -6px;
+}
+.content-premios .imagen-premios .footImagen{
+    position: relative;
+    left: 0px;
+    top: -17px;
+}
+.resultado-grupos-a, .resultado-grupos-b, .resultado-grupos-c{
+    
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: -8px;
+}
+.resultado-grupos-a.bien, .resultado-grupos-b.bien, .resultado-grupos-c.bien{
+    background-image: url(../img/bien.png) !important;
+}
+.resultado-grupos-a.mal, .resultado-grupos-b.mal, .resultado-grupos-c.mal{
+    background-image: url(../img/mal.png) !important;
+}
+.resultado-grupos-a{
+    left: 135px;
+}
+.resultado-grupos-b{
+    left: 158px;
+}
+.resultado-grupos-c{
+   left: 181px;
+}
+.vermas-posiciones{
+    margin: 0 auto;
+    width: 36px;
+    margin-bottom: 7px;
+}
+.vermas-posiciones a{
+    text-decoration: none;
+    color:#24503c;
+}
+.titulotercero, .titulofinal{
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.titulofinal{
+    margin-top: 23px;
+}
